@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logo{
+	
+	height: 278px;
+	width: 501px;
+}
+.logoimg{
+	text-align: center;
+}
+nav a{
+	text-decoration: none;
+	color: antiquewhite;
+	font-size: 18px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+nav li{
+	display: inline-block;
+	width: 150px;
+	height: 20px;
+	padding: 5px 10px;
+	background-color:#2A45AC;
+	border: 1px solid #DCDCDC;
+	text-align: center;
+	color:#06133E;
+	position: relative;
+}
+nav li:hover{
+	background-color:#84B6D9;
+	color:darkcyan;
+	}
+nav li>ul{
+	display: none;
+}
+nav li:hover>ul{
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 0%;
+	}
+.menu{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	font-size: 34px;
+	color: olive;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+p{
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:#070707;
+	font-size: 18px;
+}
+.video-responsive{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	overflow: hidden;
+    width: 900px;
+	height: 500px;	
+	
+}
+
+.videoyoutube{
+	text-align: center;
+	padding-left: 300px;
+}
+.video-responsive iframe,
+.video-responsive objet
+.video-responsive embed{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 900px;
+	height: 500px;
+	}
+
+body{
+	background-image: url("../img/fondo.jpg")
+}

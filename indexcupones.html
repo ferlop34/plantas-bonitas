@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Cupones </title>
+	<link href="css/cuponescss.css" rel="stylesheet" type="text/css">
+	<script language="javascript">
+		function ver_imagen()
+		{
+			if (!document.images)
+				return
+			document.images.img.src=document.imagenes.imagen.options[document.imagenes.imagen.selectedIndex].value;
+		}
+	</script>
+</head>
+
+<body>
+	<div class="logoimg"> 
+		<img  class="logo" src="img/logo.png"></div>
+	<div class="menu">
+		<nav>
+		<div class="nav-mobil">
+			<a id="nav-boton" href="#!"><span></span> </a>
+			</div>
+		<ul class="nav-menu">
+			<li> <a href="indexprincipal.html"> INICIO </a></li>
+			<li> <a href="indexcuidados.html"> CUIDADOS </a></li>
+			<li> <a href="indexcultiva.html"> CULTIVA </a></li>
+			<li> <a href="indexmacetas.html"> MACETEROS </a></li>
+			<li> <a href="indexcontactanos.html"> CONTACTANOS </a></li>
+			</ul>
+			</nav>
+	        </div>
+	<div class="texto">
+	    <h1> •  CUPONES  • </h1>
+		<h2> ¡Estos cupones son para ti!</h2>
+	<p> Solo tienes que tomarle captura de pantalla y mostrarlo en la sucursal para que se haga valido
+		<br>
+		*Valido solo en el la temporada de otoño
+		<br>
+		*un cupón por compra</p>
+		</div>
+	
+	<div class="galeria">
+		<form name="imagenes">
+		<select name="imagen" size="1" onChange="ver_imagen()"> 
+			<option> Elegir tu cupón:</option>
+			<br>
+			<br>
+			<option value="img/cupon1.jpg"> CUPÓN 1</option>
+			<option value="img/cupon2.jpg"> CUPÓN 2</option>
+			<option value="img/cupon3.jpg"> CUPÓN 3</option>
+			</select>
+		</form>
+		<img src="img/cupon2.jpg" name="img">
+	</div>
+	
+	
+	
+</body>
+</html>

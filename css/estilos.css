@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logo{
+	height: 278px;
+	width: 501px;
+	
+}
+.logoimg{
+	text-align: center;
+}
+
+
+nav a{
+	text-decoration: none;
+	color: antiquewhite;
+	font-size: 18px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+nav li{
+	display: inline-block;
+	width: 150px;
+	height: 20px;
+	padding: 5px 10px;
+	background-color:#2A45AC;
+	border: 1px solid #DCDCDC;
+	text-align: center;
+	color:#06133E;
+	position: relative;
+}
+nav li:hover{
+	background-color:#84B6D9;
+	color:darkcyan;
+	}
+nav li>ul{
+	display: none;
+}
+nav li:hover>ul{
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 0%;
+	}
+.menu{
+	text-align: center;
+}
+.banner{
+	
+	padding-top: 20px;
+	height: 159px;
+	width: 1009px;
+	text-align: center;
+}
+.imgbanner{
+	text-align: center;
+}
+.img{
+	padding-top: 50px;
+	height: 400px;
+	width: 400px;
+}
+.enlaces{
+	text-align:center;
+	padding-left: 60px;
+}
+body{
+	background-image: url("../img/fondo.jpg")
+}
